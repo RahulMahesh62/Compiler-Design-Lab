@@ -1,8 +1,11 @@
-# Compiler-Design-Lab
-Compiler Design Lab programs of 7th Semester KTU CSE Batch
+# Yacc Programs
 
 ## Running the programs
-Instructins for running the programs are given in the respective sections.
+
+yacc -d filename.y
+lex filename.l
+gcc lex.yy.c y.tab.c
+./a.out
 
 ## Contributing
 Contributions are always welcome.
